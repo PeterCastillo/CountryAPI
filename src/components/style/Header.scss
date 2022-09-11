@@ -1,0 +1,22 @@
+@import "_vars.scss";
+
+.header {
+    background-color: $color-background;
+    font-family: $letter-style;
+    color: $color-letter;
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1000px;
+        margin: auto;
+        padding: 1rem;
+        .logo {
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .styleMode {
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+@import "_vars.scss";
+
+
+.seccion {
+    background-color: $color-background;
+    font-family: $letter-style;
+    .form {
+        display: flex;
+        max-width: 1000px;
+        margin: auto;
+        justify-content: space-between;
+        padding: 0rem 1rem;
+        flex-wrap: wrap;
+        gap: 1rem 20rem;
+
+        .form-input {
+            flex-grow: 1;
+            input{
+                width: 100%;
+                padding: 0rem 0.5rem;
+                height: 3rem;
+            }
+
+        }
+        .form-select {
+            width: 10rem;
+            padding: 0rem 0.5rem;
+            height: 3rem;
+        }
+        
+    }
+
+    .countrys {
+        max-width: 1000px;
+        margin: auto;
+        padding: 1rem 1rem;
+        color: $color-letter;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: space-between;
+        .country {
+            margin: 1rem 0rem;
+            width: 12rem;
+            height: 14rem;
+            background-color: $color-background-item;
+            border-radius: 0.3rem;
+            .country__img {
+                width: 100%;
+                height: 50%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 0.3rem 0.3rem 0rem 0rem;
+                }
+            }
+            .country__info {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                padding: 0.5rem;
+                .country__info__details {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.3rem;
+                }
+            }
+        }
+    }
+    
+}
