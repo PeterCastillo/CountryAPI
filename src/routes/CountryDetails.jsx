@@ -52,7 +52,7 @@ const CountryDetails = () => {
                                 </div>
                             </div>
                             <div className="border">
-                                <b>BorderCountries: </b>{data[0].borders.map( item =>(<Border key={item} border={item}/>))}
+                                <b>BorderCountries: </b>{data[0].borders ?  data[0].borders.map( item =>(<Border key={item} border={item}/>)) : <span>No tiene</span>}
                             </div>
                         </div>
                     </div>
