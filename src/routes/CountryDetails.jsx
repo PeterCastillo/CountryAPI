@@ -17,7 +17,11 @@ const CountryDetails = () => {
 
     if(loading){
         return (
-            <span>Cargando...</span>
+            <div className="container">
+                <div className="countryDetails">
+                    <div className="countryDetailsLoad"></div>
+                </div>
+            </div>
         )
     }
 

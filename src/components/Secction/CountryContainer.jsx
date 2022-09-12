@@ -8,7 +8,20 @@ const CountryContainer = ({filter}) => {
 
     if(loading){
         return (
-            <div>Cargando</div>
+            <div className="countrys">
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+                <div className="countryLoad"></div>
+            </div>
         )
     }
 

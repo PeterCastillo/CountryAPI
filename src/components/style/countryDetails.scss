@@ -8,6 +8,11 @@
         flex-direction: column;
         padding: 1rem;
         gap: 2rem;
+        .countryDetailsLoad {
+            background-color: $color-background-item;
+            height: 500px;
+            animation: loading-skeleton infinite 1s;
+        }
         .btn {
                 background-color: $color-background-item;
                 display: inline-block;
@@ -74,3 +79,11 @@
         align-self: center;
     }
 } 
+@keyframes loading-skeleton {
+    0%, 100% {
+      opacity: 100%;
+    }
+    50% {
+      opacity: 0%;
+    }
+  }

@@ -38,6 +38,14 @@
         flex-wrap: wrap;
         gap: 1rem;
         margin-top: 1rem;
+        .countryLoad {
+            margin: 1rem 0rem;
+            flex: 1 1 12rem;
+            height: 16rem;
+            background-color: $color-background-item;
+            animation: loading-skeleton infinite 1s;
+            border-radius: 0.3rem;
+        }
         .country {
             margin: 1rem 0rem;
             flex: 1 1 12rem;
@@ -74,3 +82,12 @@
     }
     
 }
+
+@keyframes loading-skeleton {
+    0%, 100% {
+      opacity: 100%;
+    }
+    50% {
+      opacity: 0%;
+    }
+  }
