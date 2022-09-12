@@ -1,6 +1,6 @@
 const StyleMode = () => {
     return (
-        <span className="styleMode">Dark Mode</span>
+        <span className="styleMode">🌙 Dark Mode</span>
     )
 }
 

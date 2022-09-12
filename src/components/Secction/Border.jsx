@@ -7,7 +7,7 @@ const Border = ({border}) => {
         return (<></>)
     }
     return (
-        <span>{data[0].name.common} </span>
+        <span className="country">{data[0].name.common} </span>
     )
 }
 

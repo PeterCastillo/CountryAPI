@@ -6,7 +6,7 @@ const Country = ({countryInfo}) => {
                 <img src={countryInfo.flags.svg} alt={countryInfo.name.common}/>
             </div>
             <div className="country__info">
-                <span><Link to={`/country/${countryInfo.cca2}`}>{countryInfo.name.common}</Link></span>
+                <span><Link to={`/country/${countryInfo.cca2}`} className="name">{countryInfo.name.common}</Link></span>
                 <div className="country__info__details">
                     <span><b>Population:</b>{countryInfo.population}</span>
                     <span><b>Region:</b>{countryInfo.region}</span>

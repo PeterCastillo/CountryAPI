@@ -4,6 +4,7 @@ import App from './App'
 import { BrowserRouter, Routes , Route} from 'react-router-dom';
 import Seccion from './components/Secction/Seccion';
 import CountryDetails from './routes/CountryDetails';
+import "../src/components/style/general.scss"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
