@@ -1,7 +1,7 @@
 import { useState } from "react"
-import Form from "./Form"
-import CountryContainer from "./CountryContainer"
-import  "../style/Seccion.scss"
+import Form from "../components/Secction/Form"
+import CountryContainer from "../components/Secction/CountryContainer"
+import  "../components/style/Seccion.scss"
 
 const Seccion = () => {
 
